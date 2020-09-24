@@ -1,0 +1,16 @@
+{
+  "name": "working-evidence-concept",
+  "version": "1.0.0",
+  "description": "Concept for workign time evidence",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "milutin zeljkovic",
+  "license": "ISC",
+  "dependencies": {
+    "bleno": "^0.5.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}

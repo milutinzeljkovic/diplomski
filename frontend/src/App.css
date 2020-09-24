@@ -1,0 +1,131 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.workers-container{
+  padding: 5rem;
+}
+
+p{
+  font-family: Lato, sans-serif;
+}
+
+.workers-item{
+  display: flex;
+  justify-content: space-between;
+  width: 40rem;
+  padding: 0rem 1rem 0rem 1rem;
+  align-items: center;
+  box-shadow: 0 0.2rem 0.5rem 0 rgba(0,0,0,0.2);
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.record-item{
+  display: flex;
+  padding: 0rem 1rem 0rem 1rem;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+}
+
+.records-container{
+  box-shadow: 0 0.2rem 0.5rem 0 rgba(0,0,0,0.2);
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  width: 40rem;
+}
+
+.workers-data{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.worker-lastname{
+  margin-left: 0.5rem;
+}
+
+.worker-name{
+  margin-left: 1rem;
+}
+
+.button {
+  font-size: 1rem;
+  border: 1px solid lightgray;
+  outline: none;
+  background-color: #fff;
+  margin-left: 1rem;
+  cursor: pointer;
+  color: #696969;
+  padding: 0.4rem 1rem;
+  border-radius: 1rem;
+}
+
+.header{
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 0.5rem 0 rgba(0,0,0,0.2);
+  padding: 1rem;
+}
+
+h2{
+  color: #194575;
+  font-weight: 100;
+}
+
+@media only screen and (max-width: 600px) {
+  .header{
+    width: 100%;
+  }
+
+  .workers-item{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0rem 1rem 0rem 1rem;
+    align-items: center;
+    box-shadow: 0 0.2rem 0.5rem 0 rgba(0,0,0,0.2);
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .record-item{
+    display: flex;
+    padding: 0rem 1rem 0rem 1rem;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+  }
+  
+  .records-container{
+    box-shadow: 0 0.2rem 0.5rem 0 rgba(0,0,0,0.2);
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+
+  .workers-container{
+    padding: 0.5rem;
+  }
+}
